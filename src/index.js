@@ -1,1 +1,5 @@
-Add AVR-AI Worker backendAdd AVR-AI Worker backend
+export default {
+  async fetch() {
+    return new Response("AVR-AI backend aktif!");
+  },
+};
